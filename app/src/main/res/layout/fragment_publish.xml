@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/pubimage"
+        android:layout_width="200dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/pubbrowse"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Browse" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Topic : "
+            android:fontFamily="@font/delafuente"
+
+            />
+
+        <EditText
+            android:id="@+id/pubtopic"
+            android:layout_width="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Title : "
+            android:fontFamily="@font/delafuente" />
+
+        <EditText
+            android:id="@+id/pubtitle"
+            android:layout_width="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Author : "
+            android:fontFamily="@font/delafuente"
+
+            />
+
+    <EditText
+        android:id="@+id/pubauth"
+        android:layout_width="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"></EditText>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="DESCRIPTION : "
+        android:fontFamily="@font/delafuente" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <EditText
+            android:id="@+id/pubdes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </EditText>
+    </ScrollView>
+    <Button
+        android:id="@+id/pubpub"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Publish">
+
+    </Button>
+</LinearLayout>

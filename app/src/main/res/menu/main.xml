@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_exit_to_app_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/rate"
+        android:title="Rate"
+        android:icon="@drawable/more">
+    </item>
+
+    <item
+        android:id="@+id/report"
+        android:title="Report Issue"
+        android:icon="@drawable/job">
+    </item>
+
+
+</menu>

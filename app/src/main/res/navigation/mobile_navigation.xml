@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.meetior.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.example.meetior.ui.more.MoreFragment"
+        android:label="@string/title_more"
+        tools:layout="@layout/fragment_more" />
+
+    <fragment
+        android:id="@+id/navigation_browse"
+        android:name="com.example.meetior.ui.browse.BrowseFragment"
+        android:label="@string/title_browse"
+        tools:layout="@layout/fragment_browse" />
+    <fragment
+        android:id="@+id/navigation_trending"
+        android:name="com.example.meetior.ui.trending.TrendingFragment"
+        android:label="@string/title_trending"
+        tools:layout="@layout/fragment_trending" />
+    <fragment
+        android:id="@+id/navigation_job"
+        android:name="com.example.meetior.ui.job.JobFragment"
+        android:label="@string/title_job"
+        tools:layout="@layout/fragment_job" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.meetior.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_publish"
+        android:name="com.example.meetior.ui.Publish.PublishFragment"
+        android:label="@string/menu_publish"
+        tools:layout="@layout/fragment_publish" />
+
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.meetior.ui.Help.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.meetior.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.meetior.ui.Notifications.NotificationsFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>

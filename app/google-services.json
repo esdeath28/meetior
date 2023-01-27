@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163762920619",
+    "firebase_url": "https://meetior-dacf4.firebaseio.com",
+    "project_id": "meetior-dacf4",
+    "storage_bucket": "meetior-dacf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163762920619:android:e283edd3cc6933f4df2bee",
+        "android_client_info": {
+          "package_name": "com.example.meetior"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163762920619-lljc0kh5egfra4kk62otio8hem5bbl03.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meetior",
+            "certificate_hash": "2f5925275082970c52f417c3a6e2ad31e0ccadaf"
+          }
+        },
+        {
+          "client_id": "163762920619-7q31l9ri1j1usfq9rbnoitak8j9f30ub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYDpTywnvinO1vWa4-YqNAJA2Y-ld9bnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163762920619-7q31l9ri1j1usfq9rbnoitak8j9f30ub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
